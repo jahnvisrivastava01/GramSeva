@@ -2,53 +2,81 @@
 
 A digital service kiosk platform designed to make essential online services easily accessible through a simple, role-based interface.
 
+## 💡 What is a Digital Service Kiosk?
+
+A **digital service kiosk** is a dedicated computer or self-service station that allows people to access digital services without needing to visit multiple offices or navigate complicated online systems on their own.
+
+GramSeva is designed as such a kiosk platform, where a resident can visit a local kiosk, request a digital service, and receive assistance from a **Kiosk Operator** when required.
+
+The platform connects three main users:
+
+```text
+👤 Resident
+     ↓
+🏡 GramSeva Kiosk
+     ↓
+🧑‍💼 Kiosk Operator
+     ↓
+🛡️ Admin
+````
+
+Residents use the kiosk to request services, operators handle and process those requests, and administrators monitor the overall system.
+
+---
+
 ## ✨ Features
 
-- 👤 **Resident Login & Registration**
-- 🧑‍💼 **Kiosk Operator Login**
-- 🛡️ **Admin Login**
-- 📋 Service request management
-- 🔄 Request status tracking
-- 🎉 Completion animation for processed requests
-- 📊 Interactive Plotly analytics
-- 🌈 Animated and colorful UI
-- 🗄️ SQLite database
-- 🔐 Password hashing and role-based access
-- 📱 Responsive Streamlit interface
+* 👤 **Resident Login & Registration**
+* 🧑‍💼 **Kiosk Operator Login**
+* 🛡️ **Admin Login**
+* 📋 Service request management
+* 🔄 Request status tracking
+* 🎉 Completion animation for processed requests
+* 📊 Interactive Plotly analytics
+* 🌈 Animated and colorful UI
+* 🗄️ SQLite database
+* 🔐 Password hashing and role-based access
+* 📱 Responsive Streamlit interface
 
 ## 👥 User Roles
 
 ### 👤 Resident
-- Create an account
-- Browse available services
-- Submit service requests
-- Track request status
-- View request history
+
+* Create an account
+* Browse available services
+* Submit service requests
+* Track request status
+* View request history
 
 ### 🧑‍💼 Kiosk Operator
-- View incoming requests
-- Process resident requests
-- Update request status
-- Mark requests as completed
-- Manage the active request queue
+
+The Kiosk Operator is the person who manages the day-to-day operations of the physical/digital service kiosk.
+
+* View incoming resident requests
+* Process resident requests
+* Update request status
+* Mark requests as completed
+* Manage the active request queue
+* Assist residents with digital services
 
 ### 🛡️ Admin
-- Manage requests
-- Monitor residents
-- View revenue analytics
-- View service usage
-- View request statistics
-- Access the complete dashboard
+
+* Manage requests
+* Monitor residents
+* View revenue analytics
+* View service usage
+* View request statistics
+* Access the complete dashboard
 
 ## 🛠️ Tech Stack
 
-- **Python**
-- **Streamlit**
-- **Pandas**
-- **Plotly**
-- **SQLite**
-- **HTML/CSS**
-- **Git & GitHub**
+* **Python**
+* **Streamlit**
+* **Pandas**
+* **Plotly**
+* **SQLite**
+* **HTML/CSS**
+* **Git & GitHub**
 
 ## 📂 Project Structure
 
@@ -60,7 +88,7 @@ GramSeva/
 ├── README.md
 ├── .gitignore
 └── gramseva.db        # created automatically, not committed
-````
+```
 
 ## 🚀 Run Locally
 
