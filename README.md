@@ -170,10 +170,5 @@ Core authentication, service requests, role-based access, request management, an
 
 **Jahnvi Srivastava**
 
-
-
----
-
 ⭐ If you like this project, consider giving it a star!
 
-```
